@@ -1,0 +1,75 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul.Top-Bar {
+    background: #ffffff;
+    list-style: none;
+    height: 50px;
+    padding-left: 0;
+}
+
+ul.Top-Bar li {
+    float: left;
+}
+
+ul.Top-Bar li.right {
+    float: right;
+}
+
+ul.Top-Bar li:first-child a {
+    padding: 0 0;
+}
+
+ul.Top-Bar li:first-child a img {
+    height: inherit;
+    vertical-align: middle;
+}
+
+ul.Top-Bar li a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+ul.Top-Bar li a.Button {
+    color: #ffffff;
+    background-color: #2B4162;
+    border-radius: 10%;
+}
+
+div.bg-container {
+    position: relative;
+    text-align: center;
+    background-color: #2B4162;
+    height: fit-content;
+    margin: auto;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+div.bg-container img.bg {
+    width: 100%;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+div.bg-container div.text-container {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%, -50%);
+}
+
+div.bg-container div.text-container div.text {
+    font-size: xx-large;
+    text-align: left;
+    color: #ffffff;
+}
+
+div.bg-container div.text-container div.text-small {
+    font-size: large;
+    text-align: left;
+    color: #ffffff;
+}
